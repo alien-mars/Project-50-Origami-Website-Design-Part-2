@@ -1,0 +1,67 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family :'Lucida Sans';
+    font-size: large;
+    color: white;   
+}
+
+.menu a {
+    color: white;
+}
+
+body{
+    background-color: rgb(238, 235, 235);
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border : 2px solid black;
+    border-radius: 50px;
+}
+
+.bodyimg{
+    position : relative;
+}
+
+.bodyimg p{
+    text-align: center;
+    position : absolute;
+    top : 10%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.bodyimg h3{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+
+.origami{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border-radius : 20px;
+    background-color: white;
+    
+    width : 310px;
+    font-family: 'fantasy';
+}
+
+.ham {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 4px 0;
+  }
